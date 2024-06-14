@@ -1,0 +1,42 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css";
+
+/** Color Variables **/
+:root {
+  --background-color: #E5E7EB;
+
+  --card-body-background: #f3f4f6;
+  
+  --danger: #DD1C1A;
+  --danger-light: #FEEBEB;
+  --success: #10B981;
+  --success-light: #EcFdf5;
+
+  --bulma-scheme-main: #059669;
+
+  --text-card-heading: #E5E7EB;
+
+  --text-page-heading: #374151;
+  --text-page-subtitle: #6B7280;
+
+  --text-light-grey: #D1D5DB;
+  --text-medium-grey: #9CA3AF;
+
+}
+
+/* some color helper classes for text */
+.text-page-heading{
+  color: var(--text-page-heading);
+}
+.text-page-subtitle{
+  color: var(--text-page-subtitle);
+}
+.text-danger{
+  color: var(--danger);
+}
+.card-body-text-attenion{
+  color: var(--text-page-heading);
+}
+
+.card-body-text{
+  color: var(--text-page-subtitle);
+}

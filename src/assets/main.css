@@ -1,0 +1,9 @@
+@import "./base.css";
+/* Background */
+html, body{
+  height: 100%;
+  background-color: var(--background-color);
+}
+
+
+
